@@ -41,5 +41,6 @@ num=int(input("Enter your number"))
 if num % num ==1 and num%1==num:
     print("Number is prime")
 
+
 else:
     print("Number is not prime")
