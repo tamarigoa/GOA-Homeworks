@@ -1,13 +1,18 @@
-num=int(input("Enter your age"))
-if num % 2 == 0:
-    print("number  even")
-else:
-    print("number odd")
+input("enter your number")
+num=4
+100//num
+number=25
 
 
 
-    num1=0
-while num1 <30:
-    print(num)
+num1=0
+while num1 <20:
+    print(num1)
     num1=num1+3
+
+
+
+
+
     
+

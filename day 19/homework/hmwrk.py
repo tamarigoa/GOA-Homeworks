@@ -1,101 +1,79 @@
-# def greet(name):
-#     print("Hello {name}")
+# sia = [10, 20, 30, 40, 50]
 
-# greet("Nika")
-# greet("Mari")
+# sia= sia[:-2] 
 
-
-# def multiply(a, b):
-#     print(a * b)
-
-# multiply(4, 5)
+# print(sia)
 
 
+# string = "Hello, World!"
 
-# def reverse_list(my_list):
-#     for i in range(len(my_list)-1, -1, -1):
-#         print(my_list[i], end=" ")
+# reversed_string = string[::-1]
 
-# reverse_list([1, 2, 3, 4, 5])
-
-
-
-
-# def bigger_ten(numbers):
-#     new_list = []
-#     for num in numbers:
-#         if num > 10:
-#             new_list.append(num)
-#     return new_list
-
-# # გამოიძახეთ ფუნქცია
-# result = bigger_ten([5, 15, 3, 12, 9])
-# print(result)
-
-
-
-
-# def remove_one_last(my_list):
-#     return my_list[1:-1]
-
-# result = remove_one_last(['a', 'b', 'c', 'd', 'e'])
-# print(result)
+# print(reversed_string)
 
 
 
 
 
-
-# def multiply(list1, list2):
-#     sum1 = sum(list1)
-#     sum2 = sum(list2)
-#     return sum1 * sum2
-
-# result =multiply([1, 2, 3], [4, 5, 6])
-# print(result)
+# numbers = [5, 12, 3, 7, 20, 8, 15, 1, 10, 25]
 
 
-
-
-# def numbers(my_list):
-#     list = []
-#     i = 0
-#     while i < len(my_list):
-#         list.append(my_list[i] * 2)
-#         i += 1
-#     return list
-# result = numbers([1, 2, 3, 4, 5])
-# print(result)
+# min_number = min(numbers)  
+# max_number = max(numbers)  
+# min_max = min_number + max_number
+# print(min_number, max_number)
+# print(min_max)
 
 
 
 
 
+# my_string = "ana"
 
 
-# def even_numbers(my_list):
-#     even_list = []
-#     for num in my_list:
-#         if num % 2 == 0:
-#             even_list.append(num)
-#     return even_list
-# result =even_numbers([1, 2, 3, 4, 5, 6])
-# print(result)
+# if my_string == my_string[::-1]:
+#     print("პალინდრომი")
+# else:
+#     print("არ არის პალინდრომი.")
 
 
 
 
 
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# def filter_names(names):
-#     new_list = []
-#     for name in names:
-#         if name.startswith('N'):
-#             new_list.append(name)
-#     return new_list
+# even = 0
+# odd = 0
 
-# result = filter_names(["Nika", "Mari", "Nino", "Giorgi", "Nana"])
-# print(result)
+
+# for num in numbers:
+#     if num % 2 == 0: 
+#         even += 1
+#     else:  
+#         odd+= 1
+
+
+# print(even)
+# print(odd)
+
+
+
+
+# list = [1, 0, 1, 0, 1, 1, 0, 1]
+
+
+# new_list = []
+
+# # 3. გადაუარეთ პირველ სიას for loop-ით
+# for num in list:
+#     if num == 1:
+#         new_list.append(True)  
+#     else:
+#         new_list.append(False)  
+
+
+# print(new_list)
+
 
 
 

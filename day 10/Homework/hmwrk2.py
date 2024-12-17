@@ -1,6 +1,4 @@
-year=int(input("enter a year:"))
-if year % 4 == 0 and year % 100 !=0 or year % 400 == 0:
-    print("nakiani weli")
-else:
-    print("nakiani weli")
-
+num=42
+num1=42
+print(num,num1)
+#both numbers are equal

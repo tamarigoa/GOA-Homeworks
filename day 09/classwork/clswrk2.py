@@ -1,13 +1,4 @@
-for num in range(0,50 +1):
-    if num % 2 ==0:
-
-        print(num)
-        
-
-
-
-
-
-
-
-#58 group
+num=20
+while num > 0:
+    num=num-1
+print(num)

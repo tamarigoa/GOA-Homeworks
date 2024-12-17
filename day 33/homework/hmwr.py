@@ -1,37 +1,40 @@
-# def characters(text):
-#     counts = []
-#     st = set()
-#     for char in text:
-#         if char not in st:
-#             count = text.count(char)
-#             counts.append(count)
-#             st.add(char)
+# def hero(bullets, dragons):
+#      return bullets >= dragons * 2
+
+# def reverse_number(num):
+#     num=str(num) 
+#     num=num[::-1]
     
-#     return sorted(counts)
-
-# text = "llllllllluuuuuuuuuuuuuukkkkkkkkkkkkkkkkaaaaaaaaaa"
-# result = characters(text)
-# print(result)
-
+#     if num.endswith("-"):
+#         num=num[:-1]
+#         num="-"+num
+#     return int(num)
 
 
-# def convert_string(list):
-#     char_list.sort()
-    
-#     result = ''.join(list)
-    
+
+# def factorial(n):
+#     result = 1
+#     for i in range(1, n + 1):
+#         result *= i
 #     return result
-# char_list = ['d', 'a', 'c', 'b']
-# result =convert_string(list)
-# print(result)
+
+
+# def remove_url_anchor(url):
+#     if '#' in url:
+#         return url.split('#')[0]
+#     return url
 
 
 
-
-# def st(numbers):
-#     numbers.sort(reverse=True)
-    
-#     return numbers
-# numbers_list = [4, 2, 9, 1, 5, 6]
-# result = st(numbers_list)
-# print(result)
+# def kebabize(n):
+#     st=""
+#     for i in n:
+#         if i.isalpha():
+#             if i.isupper():
+#                 st+="-"+i.lower()
+#             else:
+#                 st+=i
+#     if len(st)>0:
+#         if st[0]=="-":
+#             st=st[1:]
+#     return st
