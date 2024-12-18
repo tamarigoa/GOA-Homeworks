@@ -1,9 +1,11 @@
-# i=("apple,pear,melon.strawwbery.bueaberry")
 
 
-# for i in range:(i)
+# შექმენით ხილების სია, სადაც გექნებათ მინიმუმ 3 ელემენტი. მომხარებელს შემოატანინეთ თავისი საყვარელი ხილი, თუ სიის ბოლო ელემენტის ინდექსი არის ლუწი ჩაამატეთ შემოტანილი ხილი სიაში, სხვა შემთხვევაში არ ჩაამატოთ 
 
-# i.pop(2)
+# x=["apple,pear,melon.strawwbery.bueaberry"]
+
+
+# for i in x:
 
 # print(i)
 
@@ -11,22 +13,32 @@
 
 
 
+# შექმენით სია შემდგარი სახელებისგან. მომხარებელს შემოატანინეთ მისი სახელი, თუ მისი სახელი იქნება 5 სიმბოლოს ტოლი ან მეტი. ჩაამატეთ სიაში, სხვა შემთხვევაში დაუბეჭდეთ "Name is too short"
 
-# names=("David,Michael,Chael,Georgi")
-# input=("Enter your name")
-# name=("Luka")
+# names = ["giorga", "goga", "Zauri", "vano", "luka"]
 
-# if name % 4 ==0:
-#     print("yout name is short")
+
+# name = input("Enter your name: ")
+
+
+# if len(name) >= 5:
+#     names.append(name)
 # else:
-#     print("Your added to the list")
+#     print("Name is too short")
 
 
-sports=["football","basketball","boxing","mma","kickboxing","muaythai","judo","sambo","wrestling","powerslap"]
+# print("Updated names list:", names)
 
-print(sports)
-number=int(input("Enter your number"))
 
-sports.pop(number)
 
-print(sports)
+
+
+
+# sports=["football","basketball","boxing","mma","kickboxing","muaythai","judo","sambo","wrestling","powerslap"]
+
+# print(sports)
+# number=int(input("Enter your number"))
+
+# sports.pop(number)
+
+# print(sports)

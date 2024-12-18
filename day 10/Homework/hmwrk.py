@@ -1,14 +1,23 @@
-input("enter your number")
-num=4
-100//num
-number=25
+# user_input=int(input("enter your number"))
+# num=100//user_input
+# print(num)
 
 
 
-num1=0
-while num1 <20:
-    print(num1)
-    num1=num1+3
+
+
+
+
+
+# num=0
+# sum=0
+
+# while num <20:
+#     if num % 2 != 0:        
+#         sum+=num
+#     num+=1
+# print(sum)
+
 
 
 
