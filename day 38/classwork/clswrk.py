@@ -11,3 +11,15 @@
 #         return 0
 #     else:
 #         return count
+
+
+# def backwards_prime(start, stop):
+#     backwards_primes = []
+    
+#     for num in range(start, stop + 1):
+#         if is_prime(num):
+#             reversed_num = int(str(num)[::-1])
+#             if reversed_num != num and is_prime(reversed_num):
+#                 backwards_primes.append(num)
+    
+#     return backwards_primes

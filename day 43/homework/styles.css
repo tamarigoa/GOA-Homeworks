@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(40, 40, 40); 
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #FF5733; 
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: rgb(54, 162, 235);
+    color: white;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+}
