@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p.important {
+    font-weight: 700;
+} */
+
+
+
+
+/* import გვეხმარება ჩვენს css ფაილში  ექსტერნული ფაილები შემოვიტანოთ */
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow; 
+    text-decoration: underline dashed black; 
+}
+nav a:active {
+    color: black; 
+    text-decoration: underline solid yellow; 
+}

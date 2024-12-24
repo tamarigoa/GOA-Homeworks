@@ -1,0 +1,19 @@
+#first-paragraph {
+    border-bottom: 2px dotted blue;
+    color: black;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#second-paragraph {
+    text-decoration: line-through dashed red;
+    color: gray;
+    font-weight: bold;
+}
+
+#third-paragraph {
+    border-top: 2px solid green;
+    color: darkgreen;
+    padding-top: 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+b {
+    display: block;
+    text-align: center;
+}
+/* b ტეგი დეფაულტად არის inline ელემენტი.
+text-align ატრიბუტი parent block-level ელემენტის შიგნით ტექსტზე მუშაობს, ამიტომ inline ელემენტებზე იგი არ ვრცელდება მათი დეფაულტ მდგომარეობაში. */ 
